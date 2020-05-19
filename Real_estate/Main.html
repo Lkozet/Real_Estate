@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+  	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main_css.css" id="mystyle">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Сайт з оголошеннями з нерухомістю</title>
+  </head>
+
+  <body>
+  	<header>
+		<a class="item" href="Main.html"><img src="Недвиж.jpg"></a>
+		<div class="item"> <h1> Ваша домівка </h1> </div>
+		<hr>
+		<a class="item" href="Main.html">Головна</a>
+		<a class="item" href="About.html">Про нашу компанію</a>
+  		<hr>
+  	</header>
+
+	<input id="q1" type="radio" name="sort" checked> <label for="q1"> За датою додавання (спочатку нові)</label><br>
+	<input id="q2" type="radio" name="sort"> <label for="q2"> За ціною, за збільшенням</label><br>
+	<input id="q3" type="radio" name="sort"> <label for="q3"> За ціною, за зменшенням</label><br>
+	<input id="q4" type="radio" name="sort"> <label for="q4"> За кількістю кімнат, за збільшенням</label><br>
+	<input id="q5" type="radio" name="sort"> <label for="q5"> За кількістю кімнат, за зменшенням</label><br>
+	<input id="q6" type="radio" name="sort"> <label for="q6"> За площею, за збільшенням</label><br>
+	<input id="q7" type="radio" name="sort"> <label for="q7"> За площею, за зменшенням</label><br><br>
+<hr>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<div class="wrapper">
+	   <div class="item" id="Est01">
+	   	Продаю 1к квартиру 31 кв. м, Чеботарская улица 41/43 в районе Холодногорский в Харькове<br>
+	   	21 000 $ за объект<br>
+<div id="carouselExampleIndicators01" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators01" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators01" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators01" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-chebotarskaya-ulitsa__107572964fl.jpg" alt="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 1" title="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-chebotarskaya-ulitsa__107572971fl.jpg" alt="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 2" title="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-chebotarskaya-ulitsa__107572973fl.jpg" alt="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 3" title="Продажа однокомнатной квартиры в Харькове, на ул. Чеботарская 41/43, район Холодногорский фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators01" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators01" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+		Кімнат — 1<br>
+		Поверх — 1<br>
+		Поверховість — 3<br>
+		Площа — 31 м²<br>
+		Тип пропозиції — від посередника<br>
+		Тип стін — цегла<br>
+		Опалення — централізоване <br>
+		Опис:<br>
+		АН Valion пропонує 1-кімнатну квартиру в районі Центрального ринку 5 хвилинної доступності від метро.<br>
+		Квартира розташована на 1поверх (напів-цоколь ) триповерхового будинку.	В квартирі зроблений косметичний ремонт .Всі зручності.<br>
+		Дуже доступна плата за комунальні послуги.Червона лінія по вул Чеботарский.Можливо під офіс!Телефонуйте! Номер оголошення на сайті компанії: SF-1-120-174-DR.<br>
+		Зв'язатися з перевіреним ріелтором Павел: (067)2317081.<br>
+		<hr>
+
+	   </div>
+	   <div class="item" style="" id="Est02">
+	   	Продаю 1к квартиру 14.5 кв. м, Московский просп 144/2 возле метро Дворец спорта в районе Новые Дома в Харькове<br>
+	   	15 500 $ за объект<br>
+<div id="carouselExampleIndicators02" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators02" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators02" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators02" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-novyie-doma-moskovskiy-prosp__109599699fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 1" title="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-novyie-doma-moskovskiy-prosp__109599685fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 2" title="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-novyie-doma-moskovskiy-prosp__109599679fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 3" title="Продаж однокімнатної квартири в Харкові на Московский просп 144/2, район Нові Дома фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators02" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators02" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+	   	Кімнат — 1<br>
+	    Поверх — 1<br>
+	    Поверховість — 4<br>
+	    Площа — 14.5 м²<br>
+	    Тип пропозиції — від посередника(без комісійних)<br>
+	    Тип стін — цегла<br>
+	    Опалення — централізоване <br>
+	    Опис:<br>
+	    AN VALION пропонує купити 1-кімнатну квартиру поряд з метро Палац Спорту, загальна площа якої 14, 5 м кв. з міні-кухнею і своїм санвузлом. Квартира з капітальним ремонтом.<br> Залишається шафа купе, вбудована кухня, бойлер і диван. Двір обгороджений і обладнаний стоянкою для машин.<br> Вільна та готова до продажу. Телефонуйте! Номер оголошення на сайті компанії: SF-1-475-685-DR.<br>
+	    Зв'язатися з перевіреним ріелтором Павел: (067)2317081.<br>
+	   	<hr>
+	   </div>
+
+	   <div class="item" style="" id="Est03">
+	   	Продаю 1к квартиру 24.9 кв. м, Московский проспект 118 возле метро Защитников Украины в районе Слободской в Харькове<br>
+	   	 20 000 $ за объект<br>
+<div id="carouselExampleIndicators03" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators03" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators03" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators03" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-slobodskoy-moskovskiy-prospekt__111051420fl.jpg" alt="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 1" title="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-slobodskoy-moskovskiy-prospekt__111051416fl.jpg" alt="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 2" title="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-slobodskoy-moskovskiy-prospekt__111051419fl.jpg" alt="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 3" title="Продаж однокімнатної квартири в Харкові на просп. Московський 118, район Слобідський фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicator03" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators03" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+	   	Кімнат — 1<br>
+	    Поверх — 3<br>
+	    Поверховість — 6<br>
+	    Площа — 24.9 м²<br>
+	    Тип пропозиції — від продавця<br>
+	    Тип стін — газоблок<br>
+	    Опалення — індивідуальне<br>
+	    Опис:<br>
+	     АН Valion пропонує відмінну однокімнатну квартиру в мальовничій частині міста. Якщо ти втомився від метушні і шумного міста - вона для тебе! Якщо тобі подобається бути в гущі подій - це те, що ти шукав.<br> Хочеш щоб все було під рукою - все є. Тут будь-які мрії - реальність. Хочеш парк - він прямий за твоїм вікном. Бажаєш бути мобільним і скрізь устигати - 50 метрів і один з самих затребуваних проспектів перед тобою.<br> Метро - легко, 3 станції (Спортивна, Метростроителей, Захисників України) - в пішій доступності. Салони, магазини, фітнес-зал - просто спустися на 1 поверх.<br> А також закрита територія, із запланованою зоною відпочинку для дітей і дорослих, паркінг, захист інтересів мешканців представником ОСМД і ще немало приємних бонусів. Квартира зі свіжим капітальним ремонтом.<br> Просто дивися! Просто Дзвони (098)5434029! Просто придбавай і насолоджуйся життям!<br>
+	   	<hr>
+	   </div>
+
+	   <div class="item" id="Est04">
+	   	Продаю 2к квартиру 45 кв. м, 23-го Августа улица біля метро 23 Серпня в районі Павлове Поле в Харкові<br>
+	   	 26 000 $ за об'єкт<br>
+<div id="carouselExampleIndicators04" class="carousel slide" data-ride="carousel"  data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators04" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators04" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators04" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-pavlovo-pole-23go-avgusta-ulitsa__107924099fl.jpg" alt="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 1" title="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-pavlovo-pole-23go-avgusta-ulitsa__107924107fl.jpg" alt="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 2" title="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-pavlovo-pole-23go-avgusta-ulitsa__107924110fl.jpg" alt="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 3" title="Продаж двокімнатної квартири в Харкові на 23-го  Августа улица район Павлове Поле фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators04" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators04" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+	   	Кімнат — 2<br>
+		Поверх — 5<br>
+		Поверховість — 5<br>
+		Площа — 45 м²<br>
+		Тип пропозиції — від продавця<br>
+		Тип стін — панель<br>
+		Рік побудови — 1970-1979<br>
+		Опалення — централізоване<br>
+		Опис:<br>
+    	Продам 2х кімн. із. кв. в центрі "Павлове Поле", 2 хв. пішки метро "23 Серпня" , кап. ремонт даху 2017 рік, кімн. разделбные, балкон, лічильники на воду, під Ваш ремонт.<br>
+    	В 5-ти хвилинної доступності Авто\Електро транспорт, ринок, супермаркет, офисн. центри, різноманітні магазини, школа, дит. сад.<br>
+    	Зв'язатися з продавцем Виталик: (063)5177631.<br>
+	   	<hr>
+	   </div>
+
+	   <div class="item" id="Est05">
+	   	Продаю 1к квартиру 31 кв. м, Большая Панасовская улица 115 в районі Холодногірський в Харкові<br>
+	   	 25 500 $ за об'єкт<br>
+<div id="carouselExampleIndicators05" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators05" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators05" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators05" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-bolshaya-panasovskaya-ulitsa__107914313fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 1" title="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-bolshaya-panasovskaya-ulitsa__107914319fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 2" title="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-holodnogorskiy-bolshaya-panasovskaya-ulitsa__107914333fl.jpg" alt="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 3" title="Продаж однокімнатної квартири в Харкові на Большая Панасовская улица 115, район Холодногірський фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators05" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators05" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+		Кімнат — 1<br>
+		Поверх — 11<br>
+		Поверховість — 11<br>
+		Площа — 31 м²<br>
+		Тип пропозиції — від продавця<br>
+		Тип стін — цегла<br>
+		Опалення — індивідуальне<br>
+		Зв'язатися з продавцем Олена: (066)1549761.<br>
+	   	<hr>
+	   </div>
+
+	   <div class="item" id="Est06">
+	   	Продаю 1к квартиру 36 кв. м, Дружби Народів вулиця в районі Московський в Харкові<br>
+	   	 29 400 $ за об'єкт<br>
+<div id="carouselExampleIndicators06" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators06" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators06" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators06" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-moskovskiy-drujbyi-narodov-ulitsa__111326240fl.jpg" alt="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 1" title="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-moskovskiy-drujbyi-narodov-ulitsa__111326256fl.jpg" alt="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 2" title="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-harkov-moskovskiy-drujbyi-narodov-ulitsa__111326249fl.jpg" alt="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 3" title="Продаж однокімнатної квартири в Харкові на вул. Дружби Народів район Московський фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators06" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators06" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+	   	Кімнат — 1<br>
+	    Поверх — 3<br>
+	    Поверховість — 9<br>
+	    Площа — 36 м²<br>
+	    Тип пропозиції — від посередника<br>
+	    Тип стін — панель<br>
+	    Опалення — централізоване <br>
+	    Опис:<br>
+	    Продам красиву 1к квартиру поліпшеного планування, 3/9 на Північній Салтівці 1 по Дружби Народів , з ремонтом. Відмінна транспортна розв'язка.<br>
+	    Все в крокової доступності : школа, дитячий садок, супермаркет, місця відпочинку, родник.<br>
+	    Зв'язатися з продавцем Геннадий Николаевич: (050)4736631, (097)5532261.<br>
+	   	<hr>
+	   </div>
+
+	   <div class="item" id="Est07">
+	   	Продаю 2к квартиру 44 кв. м, Костичева вулиця 23 в районі Одеська в Харкові<br>
+        22 500 $ за об'єкт<br>
+<div id="carouselExampleIndicators07" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators07" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators07" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators07" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-odesskaya-kostycheva-ulitsa__108768538fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 1" title="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-odesskaya-kostycheva-ulitsa__108768539fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 2" title="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-odesskaya-kostycheva-ulitsa__108768540fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 3" title="Продаж двокімнатної квартири в Харкові на вул. Костичева 23, район Одеська фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators07" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators07" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+        Кімнат — 2<br>
+	    Поверх — 1<br>
+	    Поверховість — 2<br>
+	    Площа — 44 м²<br>
+	    Тип пропозиції — від посередника (без комісійних)<br>
+	    Тип стін — цегла<br>
+	    Опалення — централізоване <br>
+	    Опис: <br>
+	    У продажу 2х кімнатна квартира в теплому цегляному будинку, з Індивідуальним опалюванням. Планування кімнат прохідна, але з можливістю розділення.<br>
+	    Стан без ремонту, але встановлена нова газова колонка, система опалювання у відмінному стані, встановлені лічильники на газ, воду.<br>
+	    Розташування будинку в 10 хвилинах від Одеської, 5мин до зупинки транспорту 2Депо ( Монюшко). Двір тихий, затишний де тільки свої.<br>
+	    Зв'язатися з продавцем Ирина: (050)3512541.<br>
+        <hr>
+    	</div>
+
+	   <div class="item" id="Est08">
+	   	Продаю 3к квартиру 63 кв. м, Бучмы ул. 46 в районі Салтівка в Харкові<br>
+        28 500 $ за об'єкт<br>
+<div id="carouselExampleIndicators08" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators08" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators08" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators08" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111321031fl.jpg" alt="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 1" title="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111321036fl.jpg" alt="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 2" title="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111321046fl.jpg" alt="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 3" title="Продаж трикімнатної квартири в Харкові на Бучмы ул. 46, район Салтівка фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators08" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators08" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+        Кімнат — 3<br>
+	    Поверх — 2<br>
+	    Поверховість — 5<br>
+	    Площа — 63 м²<br>
+	    Тип пропозиції — від посередника (без комісійних)<br>
+	    Тип стін — панель<br>
+	    Опалення — централізоване <br>
+	    Опис:<br>
+	    АН "Valion" продасть квартиру в 533 м/р. Планировка- квадратний хол, косметичний ремонт- рівні стіни і стеля, нові шпалери і лінолеум. Плитка 15*15 акуратна, є лічильники.<br>
+	    В усій квартирі пластикові вікна, балкон засклений. Продаж від перших власників. Покупець послуги АН не оплачує. Номер оголошення на сайті компанії : SF - 1-519-063 - DR.<br>
+	    Зв'язатися з перевіреним ріелтором Павел: (067)2317081.<br>
+        <hr>
+    	</div>
+
+	   <div class="item" id="Est09">
+	   	Продаю 2к квартиру 44 кв. м, Познанська вулиця в районі Салтівка в Харкові<br>
+        23 000 $ за об'єкт<br>
+<div id="carouselExampleIndicators09" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators09" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators09" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators09" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka-poznanskaya-ulitsa__111647973fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 1" title="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka-poznanskaya-ulitsa__111647966fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 2" title="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka-poznanskaya-ulitsa__111647963fl.jpg" alt="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 3" title="Продаж двокімнатної квартири в Харкові на вул. Познанська район Салтівка фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators09" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators09" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+        Кімнат — 2<br>
+	    Поверх — 5<br>
+	    Поверховість — 5<br>
+	    Площа — 44 • 26 • 6 м²<br>
+	    Тип пропозиції — від продавця<br>
+	    Тип стін — цегла<br>
+	    Опалення — централізоване <br>
+	    Опис:<br>
+	    Продам 2-х кімнатну квартиру по вулиці Познаньської Відмінне планування студія + спальня! Житловий стан, не торцева, тепла, хороші сусіди, двір з дитячим майданчиком.<br>
+	    Розвинена інфраструктура, супермаркет, школи, садок, транспорт!<br>
+	    Зв'язатися з продавцем Инна: (050)3148591.<br>
+        <hr>
+    	</div>
+
+	   <div class="item" id="Est010">
+	   	Продаю 2к квартиру 45 кв. м, Владислава Зубенко Тимуровцев ул. в районі Салтівка в Харкові<br>
+        27 500 $ за об'єкт<br>
+<div id="carouselExampleIndicators010" class="carousel slide" data-ride="carousel" data-interval="false" style="max-height: 720px; max-width: 640px">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators010" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators010" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators010" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111596606fl.jpg" alt="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 1" title="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111596619fl.jpg" alt="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 2" title="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-harkov-saltovka__111596638fl.jpg" alt="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 3" title="Продаж двокімнатної квартири в Харкові на Владислава Зубенко Тимуровцев ул. район Салтівка фото 3" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators010" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators010" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+        Кімнат — 2<br>
+	    Поверх — 2<br>
+	    Поверховість — 5<br>
+	    Площа — 45 м²<br>
+	    Тип стін — монолітно-цегляний<br>
+	    Опалення — централізоване <br>
+        Опис:<br>
+        Продам реальну 2 кімнатну квартиру на Салтовке, м. Барабашова, 602 м/р, вул. В. Зубенко. Поверх 2/5 эт. будинку. Общ.пл.- 47/32/6, 5, кімнати роздільні. <br>
+        Косметичний ремонт: шафа-купе, євровікна; на підлозі лінолеум; зроблені труби, 4х тарифний лічильник на воду, лічильник на тепло додому. <br>
+        Кухня, ванна, туалет - з частковим ремонтом,, балкон засклений. Круг транспорту, зручна розв'язка, уся інфраструктура : садок, школа, магазини, ринок. До метро Барабашова 20мин.<br>
+        Зв'язатися з продавцем Ирина: (050)3782451.<br>
+        <hr>
+    </div>
+
+</div>
+  </body>
+  </html>
+
+
+  

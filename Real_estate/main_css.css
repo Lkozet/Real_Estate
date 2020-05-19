@@ -1,0 +1,79 @@
+body {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 20px;
+	background-color:#ffffff;
+}
+hr{
+	color: grey;
+}
+.item {
+	display: inline-block;
+	padding: 0 10px;
+	color: inherit;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+#q1:checked ~ .wrapper > .item {
+	order: var(--default);
+}
+#q2:checked ~ .wrapper > .item {
+	order: var(--cost);
+}
+#q3:checked ~ .wrapper > .item {
+	order: var(--cost);
+}
+#q4:checked ~ .wrapper > .item {
+	order: var(--rooms);
+}
+#q5:checked ~ .wrapper > .item {
+	order: var(--rooms);
+}
+#q6:checked ~ .wrapper > .item {
+	order: var(--square);
+}
+#q7:checked ~ .wrapper > .item {
+	order: var(--square);
+}
+#q1:checked ~ .wrapper,
+#q3:checked ~ .wrapper,
+#q5:checked ~ .wrapper,
+#q7:checked ~ .wrapper {
+	flex-direction: column-reverse;
+}
+
+#Est01 {
+	--default: 1; --cost: 21000; --rooms: 1; --square: 31;
+}
+#Est02 {
+	--default: 2; --cost: 15500; --rooms: 1; --square: 14.5;
+}
+#Est03 {
+	--default: 3; --cost: 20000; --rooms: 1; --square: 24.9;
+}
+#Est04 {
+	--default: 4; --cost: 26000; --rooms: 2; --square: 45;
+}
+#Est05 {
+	--default: 5; --cost: 25500; --rooms: 1; --square: 31;
+}
+#Est06 {
+	--default: 6; --cost: 29400; --rooms: 1; --square: 36;
+}
+#Est07 {
+	--default: 7; --cost: 22500; --rooms: 2; --square: 44;
+}
+#Est08 {
+	--default: 8; --cost: 28500; --rooms: 3; --square: 63;
+}
+#Est09 {
+	--default: 9; --cost: 23000; --rooms: 2; --square: 44;
+}
+#Est010 {
+	--default: 10; --cost: 27500; --rooms: 2; --square: 45;
+}
